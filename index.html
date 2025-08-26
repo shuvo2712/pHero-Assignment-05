@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Hotline Services</title>
+    <!-- icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/27.png" />
+    <!-- daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="max-w-screen-xl mx-auto">
+    <nav class="flex justify-between items-center">
+      <!-- nav left -->
+      <div class="flex items-center gap-4 p-4">
+        <!-- logo -->
+        <div>
+          <img class="h-[50px] w-[50px]" src="assets/logo.png" alt="l ogo" />
+        </div>
+        <!-- h1 -->
+        <div class="text-[#006747] text-2xl font-bold">
+          <h1>Emergency</h1>
+          <h1>Hotline Services</h1>
+        </div>
+      </div>
+      <!-- nav right -->
+      <div class="flex items-center gap-4 p-4">
+        <!-- heart -->
+        <div
+          class="h-[52px] w-[114px] flex justify-center items-center bg-[#41ff6b1a] rounded-full gap-2"
+        >
+          <h1 class="font-bold">0</h1>
+          <img class="h-[30px] w-[30px]" src="assets/heart.png" alt="heart" />
+        </div>
+        <!-- coin -->
+        <div
+          class="h-[52px] w-[114px] flex justify-center items-center bg-[#41ff6b1a] rounded-full gap-2"
+        >
+          <h1 class="font-bold">100</h1>
+          <img class="h-[30px] w-[30px]" src="assets/coin.png" alt="coin" />
+        </div>
+        <!-- copy -->
+        <div
+          class="h-[52px] w-[114px] flex justify-center items-center bg-[#00a63e] rounded-full gap-2 text-white font-semibold"
+        >
+          <h1>0</h1>
+          <h1>Copy</h1>
+        </div>
+      </div>
+    </nav>
+    <!-- dashboard -->
+    <header
+      class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] text-white flex flex-col justify-center items-center gap-2 p-5"
+    >
+      <img class="h-[100px] w-[100px]" src="assets/logo-dark.png" alt="logo" />
+      <h1 class="font-bold text-3xl">Emergency Service Directory</h1>
+      <p class="">
+        Government Emergency Services at Your Fingertip - A Project by
+        Government of the People's Republic of Bangladesh
+      </p>
+    </header>
+    <!-- main -->
+    <main class="flex gap-4 p-4">
+      <!-- All Cards -->
+      <section class="w-3/4 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- National Emergency number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/emergency.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">National Emergency Number</h1>
+            <p class="font-light">National Emergency</p>
+            <h1 class="font-bold">999</h1>
+            <p class="font-light">All</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Police Helpline number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/police.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Police Helpline Number</h1>
+            <p class="font-light">Police</p>
+            <h1 class="font-bold">999</h1>
+            <p class="font-light">Police</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fire Service number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/fire-service.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Fire Service Number</h1>
+            <p class="font-light">Fire Service</p>
+            <h1 class="font-bold">999</h1>
+            <p class="font-light">Fire</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ambulance Service number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/ambulance.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Ambulance Service Number</h1>
+            <p class="font-light">Ambulance Service</p>
+            <h1 class="font-bold">1994-999999</h1>
+            <p class="font-light">Health</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div> 
+
+        <!-- Women & Child Helpline number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/emergency.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Women & Child Helpline</h1>
+            <p class="font-light">Women & Child Helpline</p>
+            <h1 class="font-bold">109</h1>
+            <p class="font-light">Help</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Anti-Corruption number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/emergency.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Anti-Corruption Number</h1>
+            <p class="font-light">Anti-Corruption</p>
+            <h1 class="font-bold">106</h1>
+            <p class="font-light">Govt.</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Electricity Helpline number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/emergency.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Electricity Helpline</h1>
+            <p class="font-light">Electricity Outage</p>
+            <h1 class="font-bold">16216</h1>
+            <p class="font-light">Electricity</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brac Helpline number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/emergency.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Brac Helpline</h1>
+            <p class="font-light">Brac</p>
+            <h1 class="font-bold">16445</h1>
+            <p class="font-light">NGO</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bangladesh Railway Helpline number -->
+        <div class="bg-[#CCEDCF] rounded-xl p-4 flex flex-col gap-5">
+          <!-- logo -->
+          <div class="flex justify-between items-center">
+            <div
+              class="bg-[#FFE3E2] h-[60px] w-[60px] flex justify-center items-center rounded-xl"
+            >
+              <img
+                class="h-[32px] w-[32px]"
+                src="assets/Bangladesh-Railway.png"
+                alt="emergency"
+              />
+            </div>
+            <h1><i class="fa-regular fa-heart"></i></h1>
+          </div>
+          <!-- name, number -->
+          <div>
+            <h1 class="font-bold">Bangladesh Railway Helpline</h1>
+            <p class="font-light">Bangladesh Railway</p>
+            <h1 class="font-bold">163</h1>
+            <p class="font-light">Travel</p>
+          </div>
+          <!-- copy, call -->
+          <div class="flex justify-between items-center gap-4">
+            <div
+              class="bg-white w-1/2 rounded-lg flex justify-center items-center gap-1 p-2"
+            >
+              <i class="fa-regular fa-copy"></i>
+              <h1>Copy</h1>
+            </div>
+            <div
+              class="bg-green-500 w-1/2 rounded-lg flex justify-center items-center gap-1 p-2 text-white"
+            >
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call History -->
+      <aside class="w-1/4 border-2 rounded-xl p-3">
+        <!-- title -->
+        <div class="flex justify-between items-center">
+            <h1 class="font-semibold text-2xl"><i class="fa-regular fa-clock"></i> Call History</h1>
+            <button class="btn bg-green-500 text-white rounded-full">Clear</button>
+        </div>
+        <!-- history log -->
+        <div>
+
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
