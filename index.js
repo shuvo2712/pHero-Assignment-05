@@ -28,18 +28,21 @@ for (const call of callBtns) {
     coinCount.innerText = currentCoin - 20;
     alert(`Calling ${cardName} : ${cardNumber}.......`);
 
+    //   date & time
+    const callTime = new Date().toLocaleString();
+
     // add to history log
     const historyLog = document.getElementById("history-Log");
     const newLog = document.createElement("li");
-      newLog.innerText = `Called ${cardName} : ${cardNumber}`;
-      newLog.classList.add("bg-gray-200", "p-2", "rounded");
+    newLog.innerText = `Called ${cardName} : ${cardNumber} at ${callTime}`;
+    newLog.classList.add("bg-gray-200", "p-2", "rounded");
     historyLog.prepend(newLog);
   });
 }
 
 // clear history button
 const clearHistoryBtn = document.getElementById("clear-History");
+const historyLog = document.getElementById("history-Log");
 clearHistoryBtn.addEventListener("click", function () {
-  const historyLog = document.getElementById("history-Log");
-  historyLog.innerHTML = '';
+  historyLog.innerHTML = "";
 });
