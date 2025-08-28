@@ -1,34 +1,23 @@
-README.md file
+#Question Answers
 
-1. Headings
-# H1 Title
-## H2 Subtitle
-### H3 Section
+## 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
-2. Bold / Italic
-**Bold Text**
-*Italic Text*
+### Ans:
 
-3. Lists
-- Bullet 1
-- Bullet 2
-  - Nested Bullet
-1. Numbered
-2. Numbered
+## 2. How do you create and insert a new element into the DOM?
 
-4. Links & Images
-[OpenAI](https://openai.com)
+###
 
-![Logo](https://example.com/logo.png)
+## 3. What is Event Bubbling and how does it work?
 
-5. Code Blocks
-Here’s some `inline code`.
+### Ans:
 
-6. Blockquotes
-> This is a quote or note
 
-7. Tables
-| Name  | Age |
-|-------|-----|
-| John  | 25  |
-| Alice | 22  |
+## 4. What is Event Delegation in JavaScript? Why is it useful?
+
+### Ans:
+
+
+## 5. What is the difference between preventDefault() and stopPropagation() methods?
+
+### Ans:
