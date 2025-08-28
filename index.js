@@ -67,7 +67,7 @@ clearHistoryBtn.addEventListener("click", function () {
   historyLog.innerHTML = "";
 });
 
-// Copy Button
+// Copy Number Button
 const copyBtn = document.getElementsByClassName("copy-Btn");
 for (const copy of copyBtn) {
     copy.addEventListener("click", function () {
