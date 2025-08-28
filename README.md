@@ -12,7 +12,7 @@ Ans:
 
 Ans:
 - crreate new element by `document.createElement()`
-- insert new element by parent.append(child) or parent.prepend(child)
+- insert new element by `parent.append(child)` or `parent.prepend(child)`
 
 ## Q3. What is Event Bubbling and how does it work?
 
@@ -31,6 +31,6 @@ Ans:
 ## Q5. What is the difference between preventDefault() and stopPropagation() methods?
 
 Ans: 
-- preventDefault() stops the page from reloading each time i input values in a form.
+- `preventDefault()` stops the page from reloading each time i input values in a form.
 
 - stopPropagation() stops even bubbling.
