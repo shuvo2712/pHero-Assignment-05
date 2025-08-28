@@ -66,3 +66,18 @@ const historyLog = document.getElementById("history-Log");
 clearHistoryBtn.addEventListener("click", function () {
   historyLog.innerHTML = "";
 });
+
+// Copy Button
+const copyBtn = document.getElementsByClassName("copy-Btn");
+for (const copy of copyBtn) {
+    copy.addEventListener("click", function () {
+        const copyCard = copy.closest(".card");
+        const cardNumber = copyCard.querySelector(".card-Number").innerText;
+        navigator.clipboard.writeText(cardNumber);
+        alert(`${cardNumber} copied to clipboard!`);
+        // update copy count
+        const copyCount = document.getElementById("copy-Count");
+        const currentCopy = parseInt(copyCount.innerText);
+        copyCount.innerText = currentCopy + 1;
+        });
+}
