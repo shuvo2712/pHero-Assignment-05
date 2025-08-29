@@ -26,7 +26,7 @@ for (const call of callBtns) {
 
     // check coin
     if (currentCoin < 20) {
-      alert("Not enough coins!");
+      alert("Not enough coins to make a call!");
       return;
     }
     //   if enough coins
@@ -68,8 +68,8 @@ clearHistoryBtn.addEventListener("click", function () {
 });
 
 // Copy Number Button
-const copyBtn = document.getElementsByClassName("copy-Btn");
-for (const copy of copyBtn) {
+const copyBtns = document.getElementsByClassName("copy-Btn");
+for (const copy of copyBtns) {
     copy.addEventListener("click", function () {
         const copyCard = copy.closest(".card");
         const cardNumber = copyCard.querySelector(".card-Number").innerText;
